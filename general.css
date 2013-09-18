@@ -25,19 +25,21 @@ header {
 	background-color: #F30;
 	color: #FFF;
 	padding: 1% 0 1% 2%;
-	
 }
 
 article {
 	padding: 0 1% 0 1%;
 }
 
-
-
 .lindsay {
 	min-width: 240px;
 	max-width: 100%;
 	float: right;
+}
+
+.portfolio {
+	max-width: 80%;
+	padding: 5% 10% 0 10%;
 }
 
 @media only screen and (min-width: 37.5em) {
@@ -48,6 +50,11 @@ article {
 	.lindsay {
 		max-width: 541px;
 	}
+	
+	.portfolio {
+	max-width: 25%;
+	padding: 4%;
+	}
 }
 
 @media only screen and (min-width: 51em) {
@@ -55,14 +62,10 @@ article {
 	article {
 		max-width: 50%;
 	}
-	
-	.lindsay {
-	}
 }
 
 @media only screen and (min-width: 80em) {
 	body {
 		font-size: 2em;
 	}
-	
 }
