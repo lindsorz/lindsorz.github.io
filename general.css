@@ -42,6 +42,15 @@ article {
 	padding: 5% 10% 0 10%;
 }
 
+footer {
+	display: inline-block;
+	width: 100%;
+	background-color: #F30;
+	color: #FFF;
+	padding: 1% 0 1% 2%;
+	font-size: 0.75em;
+}
+
 @media only screen and (min-width: 37.5em) {
 	body {
 		font-size: 1em;
